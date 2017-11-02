@@ -1,0 +1,96 @@
+<html lang='es'>
+	<head>
+		<title>Intel</title>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<link rel="shortcut icon" href="Images/Intel.png"/>
+		<link type='text/css' href='CSS/Stylesheet.css' rel='stylesheet'/>
+		<link rel="stylesheet" href="CSS/bootstrap.css">
+		<link rel='stylesheet' href='CSS/dropdowns-enhancement.css'>
+		<script src="site_js/jquery-1.11.3.min.js"></script>
+		<script src="site_js/bootstrap.js"></script>
+		<script src='site_js/dropdowns-enhancement.js'></script>
+	</head>
+	<body>
+		<div id='Main'>
+			<nav id='Menu' class='navbar navbar-default' role='Banner'>
+				<div class='banner container component' data-component='header'>
+					<div class='navbar-header'>
+						<a href='index.html'><img src='images/Inteloldlogo.png'></a>
+					</div>
+					<!-- Dropdown Menu -->
+					<ul class='nav navbar-nav'>
+						<li id='main-menu' class='jq-dropdown jq-dropdown-tip'>
+							<a data-toggle='dropdown' class="dropdown" href=''>Men&uacute<span class="caret"></span></a>
+								<ul class="dropdown-menu multi-level">
+									<li><a href="Soporte.html">Soporte</a></li>
+									<li><a href="dist.html">Donde comprar</a></li>
+									<li><a href="about.html">Acerca de Intel</a></li>
+									<li><a href="Autor.html">Autor</a></li>
+								</ul>
+						</li>
+						<script>
+							$(document).ready(function(){
+								$(".dropdown").click(function(){
+									$(".dropdown-menu").slideToggle("slow");
+								});
+							});
+						</script>
+					</ul>
+				</div>
+			</nav>
+			<div id='Body' class='clearfix'>
+				<hr class='hr-separator'>
+				<div class='text-container'>
+					<div class='container' id='history-p-1'>
+						<p class='col-md-6'>
+							Intel fue fundada en Mountain View (California) en 1968 por Gordon E. Moore (qu&iacutemico y f&iacutesico, famoso por su "Ley de Moore") y Robert Noyce (f&iacutesico y co-inventor del circuito integrado) cuando salieron de Fairchild Semiconductor. El tercer empleado de Intel fue Andy Grove, un ingeniero qu&iacutemico, que dirigi&oacute la compa&ntilde&iacutea durante la mayor parte de los a&ntildeos 1980 y del per&iacuteodo de alto crecimiento de los 1990.
+							<br class='line-br'>
+							Moore y Noyce inicialmente quisieron llamar a la compa&ntilde&iacutea "Moore Noyce", pero sonaba mal (ya que en ingl&eacutes suena como More Noise, que literalmente significa: M&aacutes Ruido, un nombre poco adecuado para una empresa electr&oacutenica, ya que el ruido en electr&oacutenica suele ser muy indeseable y normalmente se asocia con malas interferencias). Utilizaron el nombre NM Electronics durante casi un a&ntildeo, antes de decidirse a llamar a su compa&ntilde&iacutea Integrated Electronics (en espa&ntildeol Electr&oacutenica Integrada), abreviado "Intel". Pero "Intel" estaba registrado por una cadena hotelera, por lo que tuvieron que comprar los derechos para poder utilizarlo.
+						</p>
+						<img src='Images/Andy_Grove_Robert_Noyce_Gordon_Moore_1978_edit.jpg' class='col-md-6' id='Andy_Grove_Robert_Noyce_Gordon_Moore'>
+					</div>
+					<hr class='hr-separator-dash'>
+					<div class='container' id='history-p-1'>
+						<img src='Images/1968.png' class='col-md-6' id='intel-sign-img'>
+						<p class='col-md-6'>
+							Intel domina el mercado de los microprocesadores. Actualmente, el principal competidor de Intel en el mercado es Advanced Micro Devices (AMD), empresa con la que Intel tuvo acuerdos de compartici&oacuten de tecnolog&iacutea: cada socio pod&iacutea utilizar las innovaciones tecnol&oacutegicas patentadas de la otra parte sin ning&uacuten costo y con la que se ha visto envuelta en pleitos cruzados. El otro hist&oacuterico competidor en el mercado x86, Cyrix, ha acabado integrado en VIA Technologies, que mantiene el VIA C3 en el mercado de los equipos de bajo consumo. Por contra, el auge de los equipos con procesadores con n&uacutecleo ARM que amenazan devorar la parte m&oacutevil del mercado PC, se est&aacute convirtiendo en un rival m&aacutes serio.
+							<br class='line-br'>
+							El 6 de junio de 2005 Intel lleg&oacute a un acuerdo con Apple Computer, por el que Intel proveer&aacute procesadores para los ordenadores de Apple, realiz&aacutendose entre 2006 y 2007 la transici&oacuten desde los tradicionales IBM. Finalmente, en enero de 2006 se presentaron al mercado las primeras computadoras de Apple, una port&aacutetil y otra de escritorio, con procesadores Intel Core Duo de doble n&uacutecleo.
+						</p>
+					</div>
+				</div>
+			</div>
+				<footer class="footer-main">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4">
+								<h4>Acerca de Intel</h4>
+								<ul>
+									<li><a href="historia.html">Historia</a></li>
+									<li><a href="Personalidades.html">Personalidades</a></li>
+								</ul>
+							</div>
+							<div class="col-md-4">
+								<h4>Ayuda</h4>
+								<select class='contact-selector' onchange="location = this.options[this.selectedIndex].value;">
+									<option value="" style="display:none">Seleccione</option>
+									<option value="Soporte.html">Soporte</option>
+									<option value="Informacion.html">Informacion</option>
+								</select>
+							</div>
+							<div class="col-md-4">
+								<h4>Social</h4>
+								<ul>
+									<li class="facebook-contact-footer"><a href="https://www.facebook.com/IntelLatinoAmerica"><img src='Images/facebook-sprite-2.png'>Facebook</a></li>
+									<li class="twitter-contact-footer"><a href="https://twitter.com/intel_la"><img src="Images/twitter-sprite.png" alt='#'>Twitter</a></li>
+									<li class="youtube-contact-footer"><a href="https://www.youtube.com/user/intelscope"><img src='Images/youtube-sprite.png'>Youtube</a></li>
+									<li class="instagram-contact-footer"><a href="https://www.instagram.com/intel/"><img src='Images/ig-sprite.png'>Instagram</a></li>
+									<li class="linkedin-contact-footer"><a href="https://www.linkedin.com/company/intel-corporation"><img src='Images/linkedin-sprite.png'>LinkedIn</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</footer>
+		</div>
+	</body>
+</html>

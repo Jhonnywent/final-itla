@@ -1,0 +1,104 @@
+<html lang='es'>
+	<head>
+		<title>Intel</title>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<link rel="shortcut icon" href="Images/Intel.png"/>
+		<link type='text/css' href='CSS/Stylesheet.css' rel='stylesheet'/>
+		<link rel="stylesheet" href="CSS/bootstrap.css">
+		<link rel='stylesheet' href='CSS/dropdowns-enhancement.css'>
+		<script src="site_js/jquery-1.11.3.min.js"></script>
+		<script src="site_js/bootstrap.js"></script>
+		<script src='site_js/dropdowns-enhancement.js'></script>
+	</head>
+	<body>
+		<div id='Main'>
+			<nav id='Menu' class='navbar navbar-default' role='Banner'>
+				<div class='banner container component' data-component='header'>
+					<div class='navbar-header'>
+						<a href='index.html'><img src='images/2000px-Intel-logo.png'></a>
+					</div>
+					<!-- Dropdown Menu -->
+					<ul class='nav navbar-nav'>
+						<li id='main-menu' class='jq-dropdown jq-dropdown-tip'>
+							<a data-toggle='dropdown' class="dropdown" href=''>Men&uacute<span class="caret"></span></a>
+								<ul class="dropdown-menu multi-level">
+									<li><a href="Soporte.html">Soporte</a></li>
+									<li><a href="dist.html">Donde comprar</a></li>
+									<li><a href="about.html">Acerca de Intel</a></li>
+									<li><a href="Autor.html">Autor</a></li>
+								</ul>
+						</li>
+						<script>
+							$(document).ready(function(){
+								$(".dropdown").click(function(){
+									$(".dropdown-menu").slideToggle("slow");
+								});
+							});
+						</script>
+					</ul>
+				</div>
+			</nav>
+			<div id='Body' class='clearfix'>
+				<div class='container'>
+					<div class='container dist-list-table'>
+						<div class='container dist-row-1'>
+							<div class='col-md-6'>
+								<a href='http://www.amazon.com/s/ref=lp_229189_nr_p_89_1?fst=as%3Aoff&rh=n%3A172282%2Cn%3A%21493964%2Cn%3A541966%2Cn%3A193870011%2Cn%3A229189%2Cp_89%3AIntel&bbn=229189&ie=UTF8&qid=1448282436&rnid=2528832011'><img src='images/Amazon-icon.png'></a>
+							</div>
+							<div class='col-md-6'>
+								<a href='http://www.bhphotovideo.com/c/search?atclk=Brand_Intel&ci=19865&N=3835434461+4291401914'><img src='images/icon-139247.png'></a>
+							</div>
+						</div>
+						<div class='container dist-row-2'>
+							<div class='col-md-6'>
+								<a href='http://www.superbiiz.com/query.php?categry=1&brand=Intel'><img src='images/logo.gif'></a>
+							</div>
+							<div class='col-md-6'>
+								<a href='http://www.newegg.com/Product/ProductList.aspx?Submit=ENE&IsNodeId=1&N=100007671%2050001157&cm_sp=Cat_CPU-Processors_1-_-Visnav-_-Intel-CPU_1'><img src='images/us_new_logo.png'></a>
+							</div>
+						</div>
+						<div class='container dist-row-3'>
+							<div class='col-md-6'>
+								<a href='http://www.ncixus.com/products/?manufactureid=28&minorcatid=106&activetab=Vendor'><img src='images/logo_merchant_ncixus2.png'></a>
+							</div>
+							<div class='col-md-6'>
+								<a href='http://www.outletpc.com/cpus--processors-.html'><img src='images/logo_merchant_outletpc.png'></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+				<footer class="footer-main">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4">
+								<h4>Acerca de Intel</h4>
+								<ul>
+									<li><a href="historia.html">Historia</a></li>
+									<li><a href="Personalidades.html">Personalidades</a></li>
+								</ul>
+							</div>
+							<div class="col-md-4">
+								<h4>Ayuda</h4>
+								<select class='contact-selector' onchange="location = this.options[this.selectedIndex].value;">
+									<option value="" style="display:none">Seleccione</option>
+									<option value="Soporte.html">Soporte</option>
+									<option value="Informacion.html">Informacion</option>
+								</select>
+							</div>
+							<div class="col-md-4">
+								<h4>Social</h4>
+								<ul>
+									<li class="facebook-contact-footer"><a href="https://www.facebook.com/IntelLatinoAmerica"><img src='Images/facebook-sprite-2.png'>Facebook</a></li>
+									<li class="twitter-contact-footer"><a href="https://twitter.com/intel_la"><img src="Images/twitter-sprite.png" alt='#'>Twitter</a></li>
+									<li class="youtube-contact-footer"><a href="https://www.youtube.com/user/intelscope"><img src='Images/youtube-sprite.png'>Youtube</a></li>
+									<li class="instagram-contact-footer"><a href="https://www.instagram.com/intel/"><img src='Images/ig-sprite.png'>Instagram</a></li>
+									<li class="linkedin-contact-footer"><a href="https://www.linkedin.com/company/intel-corporation"><img src='Images/linkedin-sprite.png'>LinkedIn</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</footer>
+		</div>
+	</body>
+</html>

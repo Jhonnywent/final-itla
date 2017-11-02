@@ -1,0 +1,89 @@
+<html lang='es'>
+	<head>
+		<title>Intel</title>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<link rel="shortcut icon" href="Images/Intel.png"/>
+		<link type='text/css' href='CSS/Stylesheet.css' rel='stylesheet'/>
+		<link rel="stylesheet" href="CSS/bootstrap.css">
+		<link rel='stylesheet' href='CSS/dropdowns-enhancement.css'>
+		<script src="site_js/jquery-1.11.3.min.js"></script>
+		<script src="site_js/bootstrap.js"></script>
+		<script src='site_js/dropdowns-enhancement.js'></script>
+	</head>
+	<body>
+		<div id='Main'>
+			<nav id='Menu' class='navbar navbar-default' role='Banner'>
+				<div class='banner container component' data-component='header'>
+					<div class='navbar-header'>
+						<a href='index.html'><img src='images/2000px-Intel-logo.png'></a>
+					</div>
+					<!-- Dropdown Menu -->
+					<ul class='nav navbar-nav'>
+						<li id='main-menu' class='jq-dropdown jq-dropdown-tip'>
+							<a data-toggle='dropdown' class="dropdown" href=''>Men&uacute<span class="caret"></span></a>
+								<ul class="dropdown-menu multi-level">
+									<li><a href="Soporte.html">Soporte</a></li>
+									<li><a href="dist.html">Donde comprar</a></li>
+									<li><a href="about.html">Acerca de Intel</a></li>
+									<li><a href="Autor.html">Autor</a></li>
+								</ul>
+						</li>
+						<script>
+							$(document).ready(function(){
+								$(".dropdown").click(function(){
+									$(".dropdown-menu").slideToggle("slow");
+								});
+							});
+						</script>
+					</ul>
+				</div>
+			</nav>
+			<div id='Body' class='clearfix'>
+				<div class='container about'>
+					<div class='col-md-6 container'>
+						<img src='images/intel_chip-1440x900.jpg' class='img-chipset'>
+					</div>
+					<div class='col-md-6 about-container'>
+						<p>
+							Intel Corporation es el mayor fabricante de circuitos integrados del mundo, seg&uacuten su cifra de negocio anual. La compa&ntilde&iacutea estadounidense es la creadora de la serie de procesadores x86, los procesadores m&aacutes com&uacutenmente encontrados en la mayor&iacutea de las computadoras personales. Intel fue fundada el 18 de julio de 1968 como Integrated Electronics Corporation (aunque un error com&uacuten es el de que "Intel" viene de la palabra intelligence) por los pioneros en semiconductores Robert Noyce y Gordon Moore, y muchas veces asociados con la direcci&oacuten ejecutiva y la visi&oacuten de Andrew Grove. Intel tambi&eacuten fue una inspiraci&oacuten para Apple cuando Steve Jobs era peque&ntildeo. Apple hace 8 a&ntildeos hizo un acuerdo para tener de sus chips tan famosos.
+						</p>
+					</div>
+					<div>
+						<img src='images/6thgen-700x590_635793054142769516.png' id='about-bottom-img'>
+					</div>
+				</div>
+			</div>	
+				<footer class="footer-main">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4">
+								<h4>Acerca de Intel</h4>
+								<ul>
+									<li><a href="historia.html">Historia</a></li>
+									<li><a href="Personalidades.html">Personalidades</a></li>
+								</ul>
+							</div>
+							<div class="col-md-4">
+								<h4>Ayuda</h4>
+								<select class='contact-selector' onchange="location = this.options[this.selectedIndex].value;">
+									<option value="" style="display:none">Seleccione</option>
+									<option value="Soporte.html">Soporte</option>
+									<option value="Informacion.html">Informacion</option>
+								</select>
+							</div>
+							<div class="col-md-4">
+								<h4>Social</h4>
+								<ul>
+									<li class="facebook-contact-footer"><a href="https://www.facebook.com/IntelLatinoAmerica"><img src='Images/facebook-sprite-2.png'>Facebook</a></li>
+									<li class="twitter-contact-footer"><a href="https://twitter.com/intel_la"><img src="Images/twitter-sprite.png" alt='#'>Twitter</a></li>
+									<li class="youtube-contact-footer"><a href="https://www.youtube.com/user/intelscope"><img src='Images/youtube-sprite.png'>Youtube</a></li>
+									<li class="instagram-contact-footer"><a href="https://www.instagram.com/intel/"><img src='Images/ig-sprite.png'>Instagram</a></li>
+									<li class="linkedin-contact-footer"><a href="https://www.linkedin.com/company/intel-corporation"><img src='Images/linkedin-sprite.png'>LinkedIn</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</footer>
+		</div>
+	</body>
+</html>
