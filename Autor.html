@@ -1,0 +1,108 @@
+<html lang='es'>
+	<head>
+		<title>Intel</title>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<link rel="shortcut icon" href="Images/Intel.png"/>
+		<link type='text/css' href='CSS/Stylesheet.css' rel='stylesheet'/>
+		<link rel="stylesheet" href="CSS/bootstrap.css">
+		<link rel='stylesheet' href='CSS/dropdowns-enhancement.css'>
+		<script src="site_js/jquery-1.11.3.min.js"></script>
+		<script src="site_js/bootstrap.js"></script>
+		<script src='site_js/dropdowns-enhancement.js'></script>
+	</head>
+	<body>
+		<div id='Main'>
+			<nav id='Menu' class='navbar navbar-default' role='Banner'>
+				<div class='banner container component' data-component='header'>
+					<div class='navbar-header'>
+						<a href='index.html'><img src='images/2000px-Intel-logo.png'></a>
+					</div>
+					<!-- Dropdown Menu -->
+					<ul class='nav navbar-nav'>
+						<li id='main-menu' class='jq-dropdown jq-dropdown-tip'>
+							<a data-toggle='dropdown' class="dropdown" href=''>Men&uacute<span class="caret"></span></a>
+								<ul class="dropdown-menu multi-level">
+									<li><a href="Soporte.html">Soporte</a></li>
+									<li><a href="dist.html">Donde comprar</a></li>
+									<li><a href="about.html">Acerca de Intel</a></li>
+									<li><a href="Autor.html">Autor</a></li>
+								</ul>
+						</li>
+						<script>
+							$(document).ready(function(){
+								$(".dropdown").click(function(){
+									$(".dropdown-menu").slideToggle("slow");
+								});
+							});
+						</script>
+					</ul>
+				</div>
+			</nav>
+			<div id='Body' class='clearfix'>
+				<div class='container'>
+					<div class='auth-info-container'>
+						<div class='col-md-4'>
+							<img src='images/DSC-0606.JPG' class='auth-img'>
+						</div>
+						<div class='col-md-8'>
+							<div class='auth-info'>
+								<h4>
+									Melvin Herrera
+								</h4>
+								<h4>
+									melvin.herrera@protonmail.com
+								</h4>
+								<h4>
+									Estudiante de Multimedia
+								</h4>
+								<h4>
+									Instituto Tecnologico de las Americas (ITLA)
+								</h4>
+							</div>
+							<br>
+							<h4 id='auth-text'>
+								Este curso no solo expandio mis conocimientos de HTML y CSS sino que tambien me ayudo a poder comprender de mejor manera tanto JQuery como Javascript y poder profundizar en Frameworks como Bootstrap (por eleccion propia). Fue una muy grata experiencia y me alegra haberla tomado.
+							</h4>
+							<div class='container contact-container'>
+								<div id='auth-fb'><a href=''><img src='images/static1.squarespace.png' alt='facebook'></a></div>
+								<div id='auth-tw'><a href=''><img src='images/unnamed.png' alt='twitter'></a></div>
+								<div id='auth-lin'><a href=''><img src='images/LinkedIn-Google-Plus-Profile-Pic-01.png' alt'linkedin'></a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+				<footer class="footer-main">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4">
+								<h4>Acerca de Intel</h4>
+								<ul>
+									<li><a href="historia.html">Historia</a></li>
+									<li><a href="Personalidades.html">Personalidades</a></li>
+								</ul>
+							</div>
+							<div class="col-md-4">
+								<h4>Ayuda</h4>
+								<select class='contact-selector' onchange="location = this.options[this.selectedIndex].value;">
+									<option value="" style="display:none">Seleccione</option>
+									<option value="Soporte.html">Soporte</option>
+									<option value="Informacion.html">Informacion</option>
+								</select>
+							</div>
+							<div class="col-md-4">
+								<h4>Social</h4>
+								<ul>
+									<li class="facebook-contact-footer"><a href="https://www.facebook.com/IntelLatinoAmerica"><img src='Images/facebook-sprite-2.png'>Facebook</a></li>
+									<li class="twitter-contact-footer"><a href="https://twitter.com/intel_la"><img src="Images/twitter-sprite.png" alt='#'>Twitter</a></li>
+									<li class="youtube-contact-footer"><a href="https://www.youtube.com/user/intelscope"><img src='Images/youtube-sprite.png'>Youtube</a></li>
+									<li class="instagram-contact-footer"><a href="https://www.instagram.com/intel/"><img src='Images/ig-sprite.png'>Instagram</a></li>
+									<li class="linkedin-contact-footer"><a href="https://www.linkedin.com/company/intel-corporation"><img src='Images/linkedin-sprite.png'>LinkedIn</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</footer>
+		</div>
+	</body>
+</html>
